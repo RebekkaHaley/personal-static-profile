@@ -1,91 +1,91 @@
+/*Defaults*/
 body {
-  background-color: #F8F8F8;
-  color: #553552;
-  font-family: 'Neuton', serif;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 20px;
+  color: #0B3C49;
+  background-color: #CBD2D0;
 }
 h1 {
-  color: #d886e5;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 26px;
-  font-weight: lighter;
-  text-shadow: 1px 1px 10px #d886e5;
-}
-h2 {
-  color: #9f6fa1;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  font-weight: lighter;
-  text-shadow: 1px 1px 10px #d886e5;
+  font-weight: bold;
 }
 h3 {
-  color: #ababab;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  font-weight: 100;
+  opacity: 0.7;
 }
-ul {
-  padding: 0;
-}
-li {
-  list-style: none;
-  display: inline-block;
-  padding: 0px 20px;
+p {
+  font-family: 'Arimo', sans-serif;
+  opacity: 0.7;
 }
 a {
-  color: #ababab;
+  color: #F0E100;
   text-decoration: none;
 }
 a:hover {
-  color: #d886e5;
-  transition: 0.2s ease-in-out, width 2s, height 4s;
-}
-.square-image {
-  width: 150px;
-  height: 150px;
-}
-.avatar {
-  padding: 25px;
-  margin: 25px;
-  text-align: center;
-  border-radius: 5px;
-}
-.avatar img {
-  width: 250px;
-  height: 250px;
-  border-radius: 100%;
-  box-shadow: 10px 10px 5px grey;
-}
-.box {
-  padding: 25px;
-  margin: 25px;
-  text-align: center;
-  border-radius: 5px;
-  box-shadow: 10px 10px 5px grey;
-}
-.box table {
-  text-align: center;
-  margin: 0 auto;
-}
-.container {
-  width: 50vw;
-  margin: 0 auto;
-}
-.button {
+  transition: all 0.3s ease;
+  color: #731963;
   text-decoration: none;
-  padding: 6px 20px;
-  box-shadow: 1px 1px 10px grey;
-  text-align: center;
-  border-radius: 5px;
-  font-size: 12px;
-  font-family: 'Montserrat', sans-serif;
 }
-.button:hover {
-  box-shadow: 1px 1px 10px #d886e5;
+a:visited {
+  text-decoration: none;
 }
-.list-inline li {
-  display: inline-block;
+a:active {
+  text-decoration: none;
+}
+
+/*Images*/
+.image-profile {
+  width: 500px;
+  border-radius: 100%;
+}
+
+/*Padding*/
+.padded {
+  padding: 30px 0;
+}
+
+/*Cards*/
+.card {
+  padding: 350px 0;
+}
+.card-100 {
+  padding: 100px 0;
+}
+.card-white {
+  background-color: #FFFDFD;
+}
+
+/*Buttons*/
+.button {
+}
+.button-primary {
+  font-weight: bold;
+  color: #fff;
+  border: 2px solid #F0E100;
+  background: #F0E100;
   padding: 20px;
+  border-radius: 50px;
 }
-.text-center {
-  text-align: center;
+.button-primary:hover {
+  color: #F0E100;
+  border: 2px solid;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+.button-primary-xs {
+  font-weight: bold;
+  color: #fff;
+  border: 2px solid #F0E100;
+  background: #F0E100;
+  padding: 5px;
+  border-radius: 50px;
+}
+.button-primary-xs:hover {
+  color: #F0E100;
+  border: 2px solid;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+/*Text*/
+.text-purple{
+  color: #731963;
 }
